@@ -1,0 +1,56 @@
+@keyframes bannercomesDown {
+  0% {
+    transform: translateY(-400px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.banner-image {
+  animation: bannercomesDown 0.9s ease-out forwards;
+}
+
+
+
+@keyframes textgoesleft {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.textgoesleft {
+  animation: textgoesleft 0.9s ease-out forwards;
+}
+
+
+
+@keyframes bannercomesDowninunder768 {
+  0% {
+    transform: translateY(-400px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.banner-image {
+  animation: bannercomesDowninunder768 0.9s ease-out forwards;
+}
+@media (max-width: 768px) {
+  .banner-image {
+    width: 600px;
+    height: 600px;
+  }
+}
+
+

@@ -1,0 +1,64 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+@font-face {
+    font-family:'iranyekanwebregular';
+    src: url(./assets/fonts/iranyekanwebregular) format('woff');
+}
+@font-face {
+    font-family:'iranyekanwebmedium';
+    src: url(./assets/fonts/iranyekanwebmedium.woff) format('woff');
+}
+@font-face {
+    font-family:'YekanBakhMedium';
+    src: url(./assets/fonts/YekanBakhMedium.woff) format('woff');
+}
+@font-face {
+    font-family:'YekanBakhHeavy';
+    src: url(./assets/fonts/YekanBakhHeavy.woff) format('woff');
+}
+@font-face {
+    font-family:'YekanBakhBold';
+    src: url(./assets/fonts/YekanBakhBold.woff) format('woff');
+}
+@font-face {
+    font-family: 'Vazirmatn-Black';
+    src: url('./assets/fonts/Vazirmatn-Black.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'Vazirmatn-Black';
+    src: url('./assets/fonts/Vazirmatn-Black.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Vazirmatn-Bold';
+    src: url('./assets/fonts/Vazirmatn-Bold.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'Vazirmatn-Bold';
+    src: url('./assets/fonts/Vazirmatn-Bold.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Vazirmatn-ExtraBold';
+    src: url('./assets/fonts/Vazirmatn-ExtraBold.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'Vazirmatn-ExtraBold';
+    src: url('./assets/fonts/Vazirmatn-ExtraBold.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Vazirmatn-Regular';
+    src: url('./assets/fonts/Vazirmatn-Regular.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'Vazirmatn-Regular';
+    src: url('./assets/fonts/Vazirmatn-Regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Vazirmatn-Thin';
+    src: url('./assets/fonts/Vazirmatn-Thin.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'Vazirmatn-Thin';
+    src: url('./assets/fonts/Vazirmatn-Thin.ttf') format('woff2');
+}
